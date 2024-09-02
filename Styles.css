@@ -1,0 +1,235 @@
+body {
+  background-color: #fff;
+  font-family: "Karla", sans-serif !important;
+}
+
+/* nav {
+  padding: 1% 4% !important;
+  font-weight: 400;
+  background-color: #edf2f4 !important;
+  display: flex;
+  justify-content: center;
+} */
+
+/* .logo-t {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #d90429 !important;
+  font-size: 1.5em;
+} */
+
+.text-end {
+  font-weight: 400;
+}
+
+/* .nav-link {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+} */
+
+.nav-link:hover {
+  color: #d90429 !important;
+}
+
+.container {
+  padding: 0;
+  /* margin: 0 4%; */
+}
+
+.titele-hero {
+  font-weight: 800 !important;
+  width: 95%;
+  line-height: 1.5;
+  font-size: 4rem;
+  margin-top: 5% !important;
+}
+
+.description-titl {
+  font-weight: 400 !important;
+  width: 85%;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-top: 1% !important;
+  color: #3c4341;
+}
+
+.login {
+  width: 30%;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+#home {
+  padding: 6% !important;
+}
+
+#about {
+  padding: 6% !important;
+}
+
+.description-about {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #3c4341;
+  margin-top: 1% !important;
+  width: 90%;
+  line-height: 1.5;
+}
+
+.titele-service {
+  font-weight: 800 !important;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 4rem;
+  margin-top: 5% !important;
+}
+
+#services {
+  padding: 6% !important;
+}
+
+.description-services {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #3c4341;
+  margin-top: 1% !important;
+  width: 80%;
+  line-height: 1.5;
+}
+
+.flights-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 30px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+/* #flights {
+  margin: 5% auto;
+} */
+
+#contact {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact label {
+  font-weight: 600;
+}
+
+#contact .form-group {
+  margin-bottom: 20px;
+}
+
+#contact .form-control {
+  border-radius: 0;
+}
+
+#contact textarea.form-control {
+  resize: none;
+}
+
+#sign-up {
+  padding-top: 6% !important;
+}
+
+.sign-up {
+  margin-top: 4% !important;
+}
+
+.titele-sing {
+  font-weight: 800 !important;
+  line-height: 1.5;
+  font-size: 3rem;
+  margin-top: 5% !important;
+}
+.btn {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  font-weight: bold !important;
+  background-color: #ef233c !important;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 50px;
+}
+
+.btn:hover {
+  background-color: #d90429 !important;
+}
+
+.lin-12,
+.form-group i {
+  color: #d90429;
+}
+
+.lin-12:hover {
+  color: #d90429;
+}
+
+.ttt1 {
+  margin: 30px 0 !important;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #d90429 !important;
+}
+
+.custom-checkbox
+  .custom-control-input:checked:focus
+  ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #d90429;
+}
+
+.custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.custom-checkbox .custom-control-input:active ~ .custom-control-label::before {
+  background-color: #d90429;
+}
+
+.new-pass {
+  font-weight: 800 !important;
+  width: 95%;
+  line-height: 1.5;
+  font-size: 4rem;
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+}
+.error-message {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
